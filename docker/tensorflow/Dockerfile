@@ -4,7 +4,11 @@ RUN set -x && \
   apt-get update && \
   apt-get install -y --no-install-recommends \
   libgomp1 \
-  git && \
+  git \
+  pkg-config \
+  libhdf5-dev \
+  g++ \
+  python3-dev && \
   apt-get clean && \
   rm -rf /var/lib/apt/lists/*
 
