@@ -32,8 +32,8 @@ Pythonの開発環境を構築するためのDockerfileを提供しています�
     - `./docker/tensorflow/Dockerfile`
     - `./docker/tensorflow/requirements.txt`
 3. PyTorch＋MLライブラリを使用するためのDockerfile
-    - `torch/Dockerfile`
-    - `torch/requirements.txt`
+    - `./docker/torch/Dockerfile`
+    - `./docker/torch/requirements.txt`
 
 
 ## 実行方法
