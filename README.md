@@ -17,7 +17,7 @@
     ├── requirements.txt
     ├── tensorflow
     │   ├── Dockerfile
-    │   └── requirements_mac.txt
+    │   └── requirements.txt
     └── torch
         ├── Dockerfile
         └── requirements.txt
